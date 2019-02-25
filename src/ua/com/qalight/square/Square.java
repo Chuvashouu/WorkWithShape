@@ -1,5 +1,31 @@
 package ua.com.qalight.square;
 
-public class Square {
+import ua.com.qalight.abstraction.AbstractShape;
+
+public class Square extends AbstractShape{
+	
+	int side;
+	public int getSide() {
+		
+		return side;
+	}
+	
+	public int getSide1() {
+		
+		return side;
+	}
+	public void setSide(int side) {
+		this.side = side;
+	}
+	
+	public int getArea() {
+		return side*side;
+	}
+	public Square(int side) {
+		this.side = side;
+	}
+	public Square() {
+		
+	}
 
 }
